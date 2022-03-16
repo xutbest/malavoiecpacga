@@ -109,14 +109,13 @@
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
    crossorigin=""></script>
-       <script type="text/javascript">
+    <script type="text/javascript">
         var mymap = L.map('mapId').setView([45.5685157, -73.8304521], 13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(mymap);
-        L.marker([45.5685157, -73.8304521]).addTo(mymap)
-    .bindPopup('Bureau comptable de Marc-André Lavoie CPA, CGA');
-</script>
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(mymap);
+        L.marker([45.5685157, -73.8304521]).addTo(mymap).bindPopup('Bureau comptable de Marc-André Lavoie CPA, CGA');
+    </script>
 
 </body>
 
